@@ -53,3 +53,6 @@ yarn.lock
 
 # Cloudflare
 functions/**/*.js
+
+# Netlify
+.netlify
