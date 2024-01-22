@@ -10,7 +10,7 @@ export default component$(() => {
 
   return (
     <Form action={signIn} class="flex justify-center">
-      <input type="hidden" name="providerId" value="discord" />
+    
       <input type="hidden" name="options.callbackUrl" value="/" />
       <Button variant="outline" type="submit">
         <LuGamepad2 class="mr-2" /> Sign In

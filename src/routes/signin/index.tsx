@@ -6,7 +6,7 @@ import { Link } from "@builder.io/qwik-city";
 export default component$(() => {
   return (
     <>
-      <AcceptCookies />
+     
       <div
         class={`container relative grid h-screen flex-col items-center justify-center lg:max-w-none lg:grid-cols-2 lg:px-0`}
       >

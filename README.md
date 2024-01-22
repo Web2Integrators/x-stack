@@ -239,7 +239,6 @@ When we look at a fullstack framework, we need to take into consideration many a
 ## Rate Limiting
 
 - 1️⃣ Upstash
-- 2️⃣ Redis
 - 3️⃣ Memcached
 
 ## Deployment
@@ -247,7 +246,6 @@ When we look at a fullstack framework, we need to take into consideration many a
 - 1️⃣ Vercel
 - 2️⃣ Netlify
 - 3️⃣ Cloudflare pages
-- 4️⃣ AWS
 - 5️⃣ GCP
 - 6️⃣ Azure
 
