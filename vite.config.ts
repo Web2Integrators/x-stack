@@ -15,6 +15,9 @@ export default defineConfig(() => {
       qwikReact(),      
       partytownVite({ dest: join(__dirname, "dist", "~partytown") }),
     ],
+    define: {
+      'process.env': JSON.stringify(process.env)
+    },
     optimizeDeps: {
       include: [ "@auth/core" ]
     },
