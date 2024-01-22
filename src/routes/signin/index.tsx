@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import Signin from "~/components/auth/signin";
-import AcceptCookies from "./accept-cookies";
+
 import { Link } from "@builder.io/qwik-city";
 
 export default component$(() => {

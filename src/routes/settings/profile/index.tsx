@@ -3,7 +3,7 @@ import { routeLoader$ } from "@builder.io/qwik-city";
 import { eq } from "drizzle-orm";
 import { db } from "~/drizzle/db";
 import { insertUserSchema, users } from "~/drizzle/schema/auth";
-import Checkbox from "~/components/ui/checkbox";
+
 import Input from "~/components/ui/input";
 import Button from "~/components/ui/button";
 import Textarea from "~/components/ui/textarea";
@@ -136,22 +136,7 @@ export default component$(() => {
               </Field>
             </div>
 
-            <div class="sm:col-span-4">
-              <Field name="available" type="boolean">
-                {(field, props) => (
-                  <div class="relative flex gap-x-3">
-                    <Checkbox {...props} checked={field.value ?? false} />
-                    <div>
-                      <Label>Available</Label>
-                      <p class="text-sm text-muted-foreground">
-                        Decide whether you want to appear available or not in
-                        search results.
-                      </p>
-                    </div>
-                  </div>
-                )}
-              </Field>
-            </div>
+          
 
             <div class="sm:col-span-6">
               <Field name="bio">
