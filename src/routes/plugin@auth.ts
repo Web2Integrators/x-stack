@@ -44,7 +44,7 @@ declare module "@auth/core/types" {
 
 export const { onRequest, useAuthSession, useAuthSignin, useAuthSignout } =
   serverAuth$(({ env }: { env: EnvGetter }) => ({
-    secret: process.env.SECRET ,
+    secret: env.get("SECRET")!,
     trustHost: true,
     providers: [
       Discord({
